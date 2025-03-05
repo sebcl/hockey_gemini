@@ -1,0 +1,23 @@
+[project]
+name = "sclav_crewai_sample"
+version = "0.1.0"
+description = "sclav_crewai_sample using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0"
+]
+
+[project.scripts]
+sclav_crewai_sample = "sclav_crewai_sample.main:run"
+run_crew = "sclav_crewai_sample.main:run"
+train = "sclav_crewai_sample.main:train"
+replay = "sclav_crewai_sample.main:replay"
+test = "sclav_crewai_sample.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
