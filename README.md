@@ -12,11 +12,11 @@ Here is the data I could potentially have...
 
 Data Source:
 - ESPN --> query directly using ESPN API Key
--     Player performances week by week
--     Team performances week by week
+-   Player performances week by week
+-   Team performances week by week
 - Jason's weekly html outputs --> Migrate to S3 bucket? Upload for now?
--     Already has Team/Player info
--     Has visualizations ---> I wonder if I can simply store the dataset the visualization uses
+-   Already has Team/Player info
+-   Has visualizations ---> I wonder if I can simply store the dataset the visualization uses
 - ????
 
 Which means, I can get a prompt like "how did my team do compared to everyone else in my league" and it could give me a text response with that breakdown. If I want to take an agentic approach, I need to figure out the bots.
